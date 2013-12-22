@@ -149,6 +149,7 @@ h6 {
 }
 
 a {
+    text-decoration: none;
     color: #4a4a4a;
     transition: color ease 0.3s;
 }
@@ -165,6 +166,7 @@ h4 a, h5 a, h6 a {
 
 p, ul, ol, dl {
     margin: 1.6em 0;
+    text-align: justify;
 }
 
 ol ol, ul ul,
@@ -422,6 +424,7 @@ margin on the iframe, cause it breaks stuff. */
 
 .post-title {
     margin:0;
+    font-size: 4rem;
 }
 
 .post-title a {
@@ -500,7 +503,7 @@ margin on the iframe, cause it breaks stuff. */
 
 /* Tweak the .post wrapper style */
 .post-template .post {
-    margin-top: 0;
+    margin-top: 150px;
     border-bottom: none;
     padding-bottom: 0;
 }
